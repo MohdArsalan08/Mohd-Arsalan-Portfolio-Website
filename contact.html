@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mohd Arsalan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i> Arsalan
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <!-- day/night toggle placed next to contact -->
+            <div class="theme-switcher">
+                <input type="checkbox" id="themeToggle">
+                <label for="themeToggle" class="switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1 class="page-title">Get In Touch</h1>
+            <p class="page-subtitle">Let's discuss your next project</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send me a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="form-message" id="formMessage"></div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Address</h4>
+                            <p>Gorakhpur, Uttar Pradesh, India</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919876543210">+91 8707421405</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p><a href="mailto:arsalangkp273015@gmail.com">arsalangkp273015@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi%20Mohd%20Arsalan" target="_blank">+91 8707421405</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/arsalan" target="_blank">github.com/arsalan</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://linkedin.com/in/arsalan" target="_blank">linkedin.com/in/arsalan</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/md.__arsalan_08" target="_blank">@arsalan</a></p>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 40px; margin-bottom: 20px;">Follow & Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/MohdArsalan08" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohd-arsalan-8002002b1" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/md.__arsalan_08" target="_blank" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi%20Mohd%20Arsalan" target="_blank" class="social-link" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What's your typical project timeline?</h3>
+                    <p>Project timelines vary based on scope and complexity. Small projects take 2-4 weeks, while larger ones may take 2-3 months. I'll provide an accurate estimate after discussing your requirements.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer maintenance services?</h3>
+                    <p>Yes! I provide ongoing maintenance, updates, and support packages to ensure your website stays secure and performs optimally.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's your pricing structure?</h3>
+                    <p>I offer flexible pricing based on project requirements. I can work with fixed-price projects, hourly rates, or retainer agreements. Let's discuss what works best for you.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can you work with existing code?</h3>
+                    <p>Absolutely! I can integrate with, refactor, or improve existing codebases. I ensure clean transitions and minimal disruption to your current systems.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you sign NDAs?</h3>
+                    <p>Yes, I'm happy to sign confidentiality agreements to protect your sensitive information and intellectual property.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's your communication style?</h3>
+                    <p>I believe in transparent, regular communication. I provide weekly updates, am responsive to queries, and keep you informed throughout the project lifecycle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's work together to bring your ideas to life</p>
+            <div class="cta-buttons">
+                <a href="#contactForm" class="btn btn-primary">Send Message</a>
+                <a href="https://www.linkedin.com/in/mohd-arsalan-8002002b1" target="_blank" class="btn btn-secondary">Connect on LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mohd Arsalan. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/MohdArsalan08" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohd-arsalan-8002002b1" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
